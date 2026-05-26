@@ -23,7 +23,6 @@ This README is part docs, part essay: it explains **what** the engine does, **ho
 13. [Usage](#13-usage)
 14. [Project structure](#14-project-structure)
 15. [Further reading](#15-further-reading)
-
 ---
 
 ## 1. Why columnar storage exists
@@ -372,5 +371,3 @@ If this README sparked interest, the natural next steps are:
 - **Apache Arrow** — the de-facto columnar format **in memory**. Defines a portable, language-agnostic layout for columnar data so that systems can share data without serialization. <https://arrow.apache.org/>.
 - **ClickHouse architecture overview** — a production OLAP engine built entirely on columnar storage, vectorized execution, and aggressive parallelism. <https://clickhouse.com/docs/en/development/architecture>.
 - **DuckDB** — a single-binary embeddable OLAP database, the SQLite of analytics. Reading the storage layer source is an excellent education in real-world columnar engineering. <https://duckdb.org/docs/internals/overview>.
-- **Daniel Abadi et al., "Column-Stores vs. Row-Stores: How Different Are They Really?"** — the canonical paper on the topic. <https://web.archive.org/web/20210301094005/http://nms.csail.mit.edu/~stavros/pubs/abadi-sigmod08.pdf>.
-- **Daniel Lemire's `fast_float`** — the state of the art in text-to-float parsing, and a deep dive into how surprisingly hard "parse a number" really is. <https://github.com/fastfloat/fast_float>.
