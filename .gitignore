@@ -1,0 +1,34 @@
+bin/
+obj/
+
+*.exe
+*.out
+*.app
+*.o
+*.obj
+data/*.csv
+.venv
+
+db/
+*.bin
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+.vscode/
+.idea/
+*.swp
+*~
+*.log
+*.gdb
+
+# WSL artifacts
+*:Zone.Identifier
+
+# local claude settings
+.claude/settings.local.json
